@@ -1,8 +1,7 @@
 # Python
 __pycache__/
-*.pyc
-*.pyo
-*.pyd
+*.py[cod]
+*.so
 *.log
 
 # Environments
@@ -10,9 +9,12 @@ venv/
 .venv/
 env/
 ENV/
+pip-wheel-metadata/
+*.egg-info/
 
 # Jupyter
 .ipynb_checkpoints/
+*.ipynb
 
 # OS
 .DS_Store
@@ -22,3 +24,28 @@ Thumbs.db
 .cache/
 dist/
 build/
+
+# ML / data artifacts (penting untuk kasus kamu)
+data/
+datasets/
+*.csv
+*.parquet
+*.feather
+
+# Model files (kalau nanti kamu simpan model)
+*.pkl
+*.joblib
+*.sav
+*.model
+*.bin
+*.h5
+*.onnx
+
+# Archives
+*.zip
+*.tar
+*.gz
+
+# Node (kalau ada frontend)
+node_modules/
+.next/
