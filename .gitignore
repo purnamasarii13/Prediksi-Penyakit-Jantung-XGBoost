@@ -1,51 +1,43 @@
+# =========================
 # Python
+# =========================
 __pycache__/
 *.py[cod]
-*.so
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+.env/
+.env.bak/
+.venv/
+
+# =========================
+# Flask
+# =========================
+instance/
 *.log
 
-# Environments
-venv/
-.venv/
-env/
-ENV/
-pip-wheel-metadata/
-*.egg-info/
-
-# Jupyter
+# =========================
+# Jupyter / IDE
+# =========================
 .ipynb_checkpoints/
-*.ipynb
+.vscode/
+.idea/
 
-# OS
+# =========================
+# OS files
+# =========================
 .DS_Store
 Thumbs.db
 
-# Build / caches
-.cache/
-dist/
-build/
-
-# ML / data artifacts (penting untuk kasus kamu)
-data/
-datasets/
-*.csv
-*.parquet
-*.feather
-
-# Model files (kalau nanti kamu simpan model)
+# =========================
+# Model / temporary
+# =========================
 *.pkl
 *.joblib
-*.sav
-*.model
-*.bin
-*.h5
-*.onnx
 
-# Archives
-*.zip
-*.tar
-*.gz
-
-# Node (kalau ada frontend)
-node_modules/
-.next/
+# =========================
+# Optional
+# =========================
+*.sqlite3
