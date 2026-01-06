@@ -1,43 +1,24 @@
-# =========================
 # Python
-# =========================
 __pycache__/
-*.py[cod]
+*.pyc
 *.pyo
 *.pyd
-
-# Virtual environment
-venv/
-.env/
-.env.bak/
-.venv/
-
-# =========================
-# Flask
-# =========================
-instance/
 *.log
 
-# =========================
-# Jupyter / IDE
-# =========================
-.ipynb_checkpoints/
-.vscode/
-.idea/
+# Environments
+venv/
+.venv/
+env/
+ENV/
 
-# =========================
-# OS files
-# =========================
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
 .DS_Store
 Thumbs.db
 
-# =========================
-# Model / temporary
-# =========================
-*.pkl
-*.joblib
-
-# =========================
-# Optional
-# =========================
-*.sqlite3
+# Build / caches
+.cache/
+dist/
+build/
